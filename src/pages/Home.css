@@ -1,0 +1,161 @@
+/* .container .row .right img{
+height: 450px;
+width: 450px;
+border-radius: 50%;
+padding-top: 1rem;
+}
+
+.container .row .left{
+     margin-top: 50px;
+     text-align: center;
+     height: 50vh;
+     padding-top: 100px;
+   
+    }
+    h1{
+        font-size: 40px;
+    }
+    span{
+        background: linear-gradient(45deg, rgb(134, 78, 78), rgb(228, 174, 74), gray, green, blue, indigo, violet);
+        -webkit-background-clip: text;
+        color: transparent;
+        }
+ */
+
+
+.container .row .right img {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    padding-top: 1rem;
+  }
+  
+  .container .row .left {
+    margin-top: 50px;
+    text-align: center;
+    height: 50vh;
+    padding-top: 100px;
+  }
+
+  
+  span {
+    background: linear-gradient(
+      45deg,
+      rgb(134, 78, 78),
+      rgb(228, 174, 74),
+      gray,
+      green,
+      blue,
+      indigo,
+      violet
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  
+  /*  Large screen*/
+  @media (max-width: 1280px) and (min-width: 768px) {
+    .container .row {
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .container .row .right img {
+      height: 300px;
+      width: 300px;
+    }
+  
+    .container .row .left {
+      margin-top: 30px;
+      padding-top: 40px;
+      height: auto;
+    }
+  
+    h1 {
+      font-size: 32px; 
+    }
+  
+    h3.fs-3 {
+      font-size: 24px;
+    }
+  
+    p.fs-5 {
+      font-size: 18px;
+    }
+  
+    span {
+      font-size: 18px;
+    }
+  }
+  
+  /*  Medium Screens */
+  @media (max-width: 992px) {
+    .container .row {
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .container .row .right img {
+      height: 250px;
+      width: 250px;
+    }
+  
+    .container .row .left {
+      margin-top: 20px;
+      padding-top: 20px;
+    }
+  
+    h1 {
+      font-size: 30px;
+    }
+  
+    h3.fs-3 {
+      font-size: 22px;
+    }
+  
+    p.fs-5 {
+      font-size: 16px;
+    }
+  
+    span {
+      font-size: 16px;
+    }
+  }
+  
+  /*  Small Screens*/
+  @media (max-width: 576px) {
+    .container .row {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  
+    .container .row .right img {
+      height: 200px;
+      width: 200px;
+    }
+  
+    .container .row .left {
+      margin-top: 10px;
+      padding-top: 10px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    h3.fs-3 {
+      font-size: 18px;
+    }
+  
+    p.fs-5 {
+      font-size: 14px;
+    }
+  
+    span {
+      font-size: 14px;
+    }
+  }
+  

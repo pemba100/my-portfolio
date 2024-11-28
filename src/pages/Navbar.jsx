@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import logo from '../image/logo.jpeg';
 import { Link } from 'react-router-dom';  
 import '../pages/Navbar.css';
+import Home from './Home';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false); 
@@ -20,7 +21,7 @@ function Navbar() {
         <div className={`menu ${isOpen ? 'open' : ''}`}>
           <ul className='d-flex list-unstyled align-items-center justify-content-center'>
             <li className='me-5'>
-              <Link to="/Home" className='text-decoration-none fs-5 fw-bold'>Home</Link>
+              <Link to="/" className='text-decoration-none fs-5 fw-bold'>Home</Link>
             </li>
             <li className='me-5'>
               <Link to="/Projects" className='text-decoration-none fs-5 fw-bold'>Projects</Link>
@@ -40,6 +41,7 @@ function Navbar() {
           ☰
         </button>
       </nav>
+      <Home/>
     </div>
   );
 }

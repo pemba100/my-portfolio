@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.14651ae1.css",
+    "main.js": "/portfolio/static/js/main.847048a8.js",
+    "static/js/453.acca0757.chunk.js": "/portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/pemba.JPG": "/portfolio/static/media/pemba.6257941a13622e4c4073.JPG",
+    "static/media/pembaa.JPG": "/portfolio/static/media/pembaa.2bc62ad1ed07cf5548ae.JPG",
+    "static/media/pembaportfolio.JPG": "/portfolio/static/media/pembaportfolio.7e6a6c84493cbce357d9.JPG",
+    "index.html": "/portfolio/index.html",
+    "main.14651ae1.css.map": "/portfolio/static/css/main.14651ae1.css.map",
+    "main.847048a8.js.map": "/portfolio/static/js/main.847048a8.js.map",
+    "453.acca0757.chunk.js.map": "/portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14651ae1.css",
+    "static/js/main.847048a8.js"
+  ]
+}

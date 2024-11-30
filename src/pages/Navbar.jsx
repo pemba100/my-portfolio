@@ -1,9 +1,6 @@
-
 import React, { useState } from 'react';
 import logo from '../image/logo.jpeg';
-import { Link } from 'react-router-dom';  
 import '../pages/Navbar.css';
-import Home from './Home';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false); 
@@ -21,19 +18,19 @@ function Navbar() {
         <div className={`menu ${isOpen ? 'open' : ''}`}>
           <ul className='d-flex list-unstyled align-items-center justify-content-center'>
             <li className='me-5'>
-              <Link to="/" className='text-decoration-none fs-5 fw-bold'>Home</Link>
+              <a href="#Home" className='text-decoration-none fs-5 fw-bold'>Home</a>
             </li>
             <li className='me-5'>
-              <Link to="/Projects" className='text-decoration-none fs-5 fw-bold'>Projects</Link>
+              <a href="#Projects" className='text-decoration-none fs-5 fw-bold'>Projects</a>
             </li>
             <li className='me-5'>
-              <Link to="/Skills" className='text-decoration-none fs-5 fw-bold'>Skills</Link>
+              <a href="#Skills" className='text-decoration-none fs-5 fw-bold'>Skills</a>
             </li>
             <li className='me-5'>
-              <Link to="/About" className='text-decoration-none fs-5 fw-bold'>About me</Link>
+              <a href="#About" className='text-decoration-none fs-5 fw-bold'>About me</a>
             </li>
             <li className='me-5'>
-              <Link to="/Contact" className='text-decoration-none fs-5 fw-bold'>Contact me</Link>
+              <a href="#Contact" className='text-decoration-none fs-5 fw-bold'>Contact me</a>
             </li>
           </ul>
         </div>
@@ -41,7 +38,6 @@ function Navbar() {
           ☰
         </button>
       </nav>
-      <Home/>
     </div>
   );
 }

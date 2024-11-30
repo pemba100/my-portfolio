@@ -31,8 +31,7 @@ function About() {
       </p>
          <p className="text-center">   <FaFacebook className="socail-icon"/>
          <FaInstagram className="socail-icon"/> <FaWhatsapp className="socail-icon"/></p>
-      {/* <h3 className="mt-3 pt-4 text-center">Feel free to get in touch with me on <FaFacebook className="socail-icon"/>
-       <FaInstagram className="socail-icon"/> <FaWhatsapp className="socail-icon"/> </h3> */}
+    
   
    
     </div>

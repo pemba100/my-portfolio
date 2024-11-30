@@ -1,11 +1,10 @@
 import React from 'react'
 import '../pages/Home.css';
 import pembaa from '../image/pembaa.JPG'
-// import Navbar from './Navbar';
 function Home() {
   return (
-    // <Navbar/>
-    <div className='home mt-5 ms-4 '>
+
+    <div className='home min-vh-100 mt-5 ms-4 '>
       <div className="container">
         <div className="row ">
 

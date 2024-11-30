@@ -27,10 +27,10 @@ function About() {
         latest trends and tools in the React ecosystem. I love the challenge
         of turning complex problems into simple, elegant solutions. I am always focused on creating the best possible
         experience for users. Feel free to explore my portfolio and get in
-        touch for collaborations or freelance opportunities. Feel free to get in touch with me on <FaFacebook className="socail-icon"/>
-        <FaInstagram className="socail-icon"/> <FaWhatsapp className="socail-icon"/>
+        touch for collaborations or freelance opportunities. Feel free to get in touch with me on
       </p>
-
+         <p className="text-center">   <FaFacebook className="socail-icon"/>
+         <FaInstagram className="socail-icon"/> <FaWhatsapp className="socail-icon"/></p>
       {/* <h3 className="mt-3 pt-4 text-center">Feel free to get in touch with me on <FaFacebook className="socail-icon"/>
        <FaInstagram className="socail-icon"/> <FaWhatsapp className="socail-icon"/> </h3> */}
   

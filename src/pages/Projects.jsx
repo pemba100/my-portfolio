@@ -8,6 +8,7 @@ const Projects = () => {
       title: "Portfolio Website",
       description: "A responsive personal portfolio built with React.js and Bootstrap.",
       image: pembaportfolio,
+      
     },
     {
       title: "E-commerce App",

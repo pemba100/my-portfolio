@@ -29,9 +29,14 @@ function About() {
         experience for users. Feel free to explore my portfolio and get in
         touch for collaborations or freelance opportunities. Feel free to get in touch with me on
       </p>
-         <p className="text-center">   <FaFacebook className="socail-icon"/>
-         <FaInstagram className="socail-icon"/> <FaWhatsapp className="socail-icon"/></p>
-    
+      
+         <p className="text-center">  
+         <a href="https://www.facebook.com/profile.php?id=100045760576430" target="_blank" rel="noopener noreferrer">
+    <FaFacebook className="social-icon" />
+</a>
+
+         <FaInstagram className="socail-icon"/> 
+         <FaWhatsapp className="socail-icon"/></p>
   
    
     </div>

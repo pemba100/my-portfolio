@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import About from './pages/About';
 import Home from './pages/Home';
@@ -33,7 +32,6 @@ function App() {
   };
 
   return (
-    <BrowserRouter basename="/my-portfolio">
       <div style={myStyle}> 
         <Navbar toggleBtn={toggleBtn} btnText={btnText} /> 
         <section id="Home">
@@ -52,7 +50,6 @@ function App() {
           <Contact />
         </section>
       </div>
-    </BrowserRouter>
   );
 }
 

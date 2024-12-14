@@ -8,11 +8,13 @@ const Projects = () => {
       title: "Portfolio Website",
       description: "A responsive personal portfolio built with React.js and Bootstrap.",
       image: pembaportfolio,
+      link: "https://pemba100.github.io/my-portfolio",  
+
       
     },
     {
       title: "E-commerce App",
-      description: "An online shopping platform.",
+      description: "An online shopping platform is still in the process of being built.",
       image:  ecommerce ,
     },
 
@@ -37,7 +39,7 @@ const Projects = () => {
                   <a
                     href={project.link}
                     target="_blank"
-                    rel=""
+                    rel="noopener noreferrer"
                     className="btn btn-primary"
                   >
                     View Project

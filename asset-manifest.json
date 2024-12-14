@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/pemba100/my-portfolio.git/static/css/main.a263784d.css",
-    "main.js": "/pemba100/my-portfolio.git/static/js/main.744c5b3e.js",
+    "main.js": "/pemba100/my-portfolio.git/static/js/main.366754c8.js",
     "static/js/453.69f3745b.chunk.js": "/pemba100/my-portfolio.git/static/js/453.69f3745b.chunk.js",
     "static/media/pembaa.JPG": "/pemba100/my-portfolio.git/static/media/pembaa.2bc62ad1ed07cf5548ae.JPG",
     "static/media/pembaportfolio.JPG": "/pemba100/my-portfolio.git/static/media/pembaportfolio.7e6a6c84493cbce357d9.JPG",
     "static/media/pemba2.JPG": "/pemba100/my-portfolio.git/static/media/pemba2.015144e36f7fd6a8f489.JPG",
     "index.html": "/pemba100/my-portfolio.git/index.html",
     "main.a263784d.css.map": "/pemba100/my-portfolio.git/static/css/main.a263784d.css.map",
-    "main.744c5b3e.js.map": "/pemba100/my-portfolio.git/static/js/main.744c5b3e.js.map",
+    "main.366754c8.js.map": "/pemba100/my-portfolio.git/static/js/main.366754c8.js.map",
     "453.69f3745b.chunk.js.map": "/pemba100/my-portfolio.git/static/js/453.69f3745b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a263784d.css",
-    "static/js/main.744c5b3e.js"
+    "static/js/main.366754c8.js"
   ]
 }

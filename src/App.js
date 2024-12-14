@@ -33,7 +33,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter basename="/portfolio">
+    <BrowserRouter basename="/my-portfolio">
       <div style={myStyle}> 
         <Navbar toggleBtn={toggleBtn} btnText={btnText} /> 
         <section id="Home">

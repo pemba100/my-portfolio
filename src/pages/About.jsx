@@ -43,7 +43,7 @@ function About() {
             <FaFacebook className="social-icon" />
           </a>
 
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/pemba9470/" target="_blank" rel="noopener noreferrer">
             <FaInstagram className="socail-icon" />
           </a>
           {/* <FaWhatsapp className="socail-icon" /> */}

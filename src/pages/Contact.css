@@ -20,10 +20,14 @@ form {
 form h2 {
     font-size: 30px;
     text-align: center;
+    color: black;
 }
 
 form .input-box {
     margin-top: 20px;
+}
+label{
+    color: black;
 }
 
 .input-box .field {

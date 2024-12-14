@@ -1,6 +1,6 @@
 import React from 'react'
 import '../pages/Home.css';
-import pembaa from '../image/pembaa.JPG'
+import pemba2 from '../image/pemba2.JPG'
 function Home() {
   return (
 
@@ -15,7 +15,7 @@ function Home() {
         <p className='fs-5'>I am a React developer with experience in building web applications.</p>
         </div>
         <div className="right col-md-5">
-          <img src={pembaa} alt="photo" className='img-fluid' />
+          <img src={pemba2} alt="photo" className='img-fluid' />
         </div>
         </div>
       </div>

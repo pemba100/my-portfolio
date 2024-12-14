@@ -1,6 +1,6 @@
 import React from "react";
 import "../pages/About.css";
-import pemba from "../image/pemba.JPG";
+import pembaa from "../image/pembaa.JPG";
     import { FaFacebook } from "react-icons/fa";
     import { FaInstagram } from "react-icons/fa";
     import { FaWhatsapp } from "react-icons/fa";
@@ -10,7 +10,7 @@ function About() {
   return (
     <div className="container py-5">
     <div className="mid-pic d-flex justify-content-center align-items-center pt-5">
-      <img src={pemba} alt="Pemba's photo" className="img-fluid rounded-circle" />
+      <img src={pembaa} alt="Pemba's photo" className="img-fluid rounded-circle" />
     </div>
     <h2 className="text-center mt-5 mb-4">
       <u>Pemba Norbu Sherpa</u>
